@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("index_bg.png");
+  background-repeat: no-repeat;
+  background-size: 2000px 2000px;
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.heighttext {
+  display: inline-block;
+  padding: 8px 10px;
+  line-height: 140%;
+}
+h1 {
+  font-size: 27px;
+}
+
+h2 {
+  font-weight: bolder;
+  color: antiquewhite;
+  text-shadow: 3px 3px 5px #175563;
+}
+
+p {
+  font-size: x-large;
+  font-weight: bold;
+}
+.navbar {
+  width: 100%;
+  background: #175563;
+  text-align: center;
+  overflow: auto;
+  color: white;
+  font-size: 11px;
+}
+
+td.colname {
+  font-style: normal;
+  text-shadow: 5px 2px #175563;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+input.heighttext {
+  border: 2px solid #175563;
+}
+
+td.partition {
+  border-right: 5px solid #999;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #175563;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+input:focus {
+  background-color: #999;
+  color: #fff;
+}
+
+.button2:hover {
+  background-color: #3e8e41;
+}
+
+.button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
